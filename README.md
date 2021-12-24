@@ -4,6 +4,8 @@ python3 -m venv project_env2
 #Activate the environment
 source project_env2/bin/activate
 
+export FLASK_APP=app
+
 pip install -r requirements.txt
 
 flask db init
